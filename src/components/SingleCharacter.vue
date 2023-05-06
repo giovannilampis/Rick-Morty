@@ -7,9 +7,10 @@ export default {
 </script>
 
 <template>
-    <div class="card">
-        <img :src="detailsCharacter.image" :alt="detailsCharacter.name">
+    <div class="character text-center">
+        <img class="rounded-circle" :src="detailsCharacter.image" :alt="detailsCharacter.name">
         <h3>{{ detailsCharacter.name }}</h3>
+        <span>{{ detailsCharacter.location.name }}</span>
     </div>
 </template>
 
