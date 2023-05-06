@@ -1,14 +1,14 @@
 <script>
 export default {
     name: 'HeaderComponent',
-    props: ['titleProps']
+    props: ['titleProps', 'classProps']
 }
 
 </script>
 
 <template>
     <div>
-        <h1>{{ titleProps }}</h1>
+        <h1 :class="classProps">{{ titleProps }}</h1>
     </div>
 </template>
 

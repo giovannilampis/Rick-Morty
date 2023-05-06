@@ -12,7 +12,7 @@ export default{
 </script>
 
 <template>
-  <HeaderComponent :titleProps=" 'RICK & MORTY - API exercise' "/>
+  <HeaderComponent :titleProps=" 'RICK & MORTY - API 🐝 CALL exercise' " :classProps=" 'text-center my-3' "/>
 </template>
 
 <style lang="scss">
