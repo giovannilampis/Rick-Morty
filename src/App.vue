@@ -10,11 +10,11 @@
       HeaderComponent,
       CharactersComponent
     },
-    // data(){
-    //   return{
-    //     store
-    //   }
-    // },
+    data(){
+       return{
+         store
+       }
+     },
     created(){
       this.callApi()
     },
