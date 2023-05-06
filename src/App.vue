@@ -1,11 +1,14 @@
 <script >
 
 import HeaderComponent from './components/HeaderComponent.vue'
+import CharactersComponent from './components/CharactersComponent.vue'
+
 
 export default{
   name: 'app',
   components: {
-    HeaderComponent
+    HeaderComponent,
+    CharactersComponent
   }
 }
 
