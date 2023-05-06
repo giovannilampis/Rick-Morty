@@ -3,7 +3,6 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import CharactersComponent from './components/CharactersComponent.vue'
 
-
 export default{
   name: 'app',
   components: {
@@ -15,7 +14,16 @@ export default{
 </script>
 
 <template>
+
   <HeaderComponent :titleProps=" 'RICK & MORTY - API 🐝 CALL exercise' " :classProps=" 'text-center my-3' "/>
+
+  <main>
+
+      <CharactersComponent/>
+
+  </main>
+
+
 </template>
 
 <style lang="scss">
