@@ -24,6 +24,8 @@
         axios.get( 'https://rickandmortyapi.com/api/character' )
           .then( (response) =>{
               console.log(response.data.results)
+              const infoCartoon = response.data.results
+              this.store.arrayCharacters = infoCartoon
         } )
       }
     }
