@@ -12,7 +12,7 @@ export default{
 </script>
 
 <template>
-  <h1>Ciao mondo</h1>
+  <HeaderComponent :titleProps=" 'RICK & MORTY - API exercise' "/>
 </template>
 
 <style lang="scss">
