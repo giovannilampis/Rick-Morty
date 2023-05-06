@@ -20,7 +20,8 @@ export default {
 
 <template>
     <div>
-        <SingleCharacter/>
+        <SingleCharacter v-for="(element, index) in store.arrayCharacters"
+        :key="index"/>
     </div>
 </template>
 
