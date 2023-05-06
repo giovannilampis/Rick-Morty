@@ -21,7 +21,9 @@ export default {
 <template>
     <div>
         <SingleCharacter v-for="(element, index) in store.arrayCharacters"
-        :key="index"/>
+        :key="index"
+        :detailsCharacter="element"
+        />
     </div>
 </template>
 
