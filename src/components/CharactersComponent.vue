@@ -2,6 +2,7 @@
 
 import { store } from '../store';
 
+
 export default {
     name: 'CharactersComponent',
     data() {
@@ -16,7 +17,7 @@ export default {
 
 <template>
     <div>
-        
+        <SingleCharacter/>
     </div>
 </template>
 
