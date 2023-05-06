@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-    <div class="character text-center">
+    <div class="text-center col-12 col-md-6 col-lg-4">
         <img class="rounded-circle" :src="detailsCharacter.image" :alt="detailsCharacter.name">
         <h3>{{ detailsCharacter.name }}</h3>
         <span>{{ detailsCharacter.location.name }}</span>

@@ -19,7 +19,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <div class="row">
         <SingleCharacter v-for="(element, index) in store.arrayCharacters"
         :key="index"
         :detailsCharacter="element"

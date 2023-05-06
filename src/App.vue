@@ -36,7 +36,7 @@
 
 <template>
 
-  <HeaderComponent :titleProps=" 'RICK & MORTY - API 🐝 CALL exercise' " :classProps=" 'text-center my-3' "/>
+  <HeaderComponent :titleProps=" 'RICK & MORTY - API 🐝 CALL exercise' " :classProps=" 'text-center mb-5 my-3' "/>
 
   <main class="container">
 
