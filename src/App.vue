@@ -1,6 +1,7 @@
 <script >
 
   import axios from 'axios';
+  import {store} from './store';
   import HeaderComponent from './components/HeaderComponent.vue';
   import CharactersComponent from './components/CharactersComponent.vue';
 
