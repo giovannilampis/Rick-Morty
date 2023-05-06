@@ -1,26 +1,33 @@
 <script >
 
-import axios from 'axios';
-import HeaderComponent from './components/HeaderComponent.vue';
-import CharactersComponent from './components/CharactersComponent.vue';
+  import axios from 'axios';
+  import HeaderComponent from './components/HeaderComponent.vue';
+  import CharactersComponent from './components/CharactersComponent.vue';
 
-export default{
-  name: 'app',
-  components: {
-    HeaderComponent,
-    CharactersComponent
-  },
-  created() {
-    callApi()
-  },
-}
-methods: {
-  callApi() {
-    axios.get( 'https://rickandmortyapi/api/character' ).then( (response) =>{
-
-    } )
+  export default{
+    name: 'app',
+    components: {
+      HeaderComponent,
+      CharactersComponent
+    },
+    // data(){
+    //   return{
+    //     store
+    //   }
+    // },
+    created(){
+      this.callApi()
+    },
+    methods: {
+      callApi() {
+        axios.get( 'https://rickandmortyapi.com/api/character' )
+          .then( (response) =>{
+              console.log(response.data.results)
+        } )
+      }
+    }
   }
-}
+
 
 </script>
 
