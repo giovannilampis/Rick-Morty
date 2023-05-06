@@ -1,13 +1,15 @@
 <script>
 export default {
     name: 'SingleCharacter',
+    props: ['detailsCharacter']
 }
 
 </script>
 
 <template>
-    <div>
-        
+    <div class="card">
+        <img :src="detailsCharacter.image" :alt="detailsCharacter.name">
+        <h3>{{ detailsCharacter.name }}</h3>
     </div>
 </template>
 
