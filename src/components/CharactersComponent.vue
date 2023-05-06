@@ -1,7 +1,14 @@
 <script>
 
+import { store } from '../store';
+
 export default {
-    name: 'CharactersComponent'
+    name: 'CharactersComponent',
+    data() {
+        return {
+            store
+        }
+    },
 }
 
 
